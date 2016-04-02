@@ -6,12 +6,12 @@ categories: update
 
 ___
 
-->## Belgian Style Dark Strong Ale
+-> ## Belgian Style Dark Strong Ale <-
 __ABV:__ 9.3%
 __SRM:__ 35
 __IBU:__ 25
 __OG:__ 1.100
-<-
+
 **Description:**  A dark, complex, very strong Belgian ale with a delicious blend of malt richness, dark fruit flavors, and spicy elements. <br />
 **Ingredients:**  Brewed with dark candy sugar, caramel wheat and barley, noble hops and belgian yeast. <br />
 
