@@ -6,7 +6,7 @@ categories: update
 
 ___
 
--> ## Belgian Style Dark Strong Ale <-
+## Belgian Style Dark Strong Ale
 __ABV:__ 9.3%
 __SRM:__ 35
 __IBU:__ 25
