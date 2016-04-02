@@ -8,7 +8,6 @@ ___
 
 ## Belgian Style Dark Strong Ale
 **Description:**  A dark, complex, very strong Belgian ale with a delicious blend of malt richness, dark fruit flavors, and spicy elements. <br />
-
 **Ingredients:**  Brewed with dark candy sugar, caramel wheat and barley, noble hops and belgian yeast. <br />
 
 __ABV:__ 9.3%
@@ -20,7 +19,6 @@ ___
 
 ## Belgian Style Triple Ale
 **Description:**  A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
-
 **Ingredients:**  Brewed with candi sugar, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
 
 __ABV:__ 10%
@@ -32,7 +30,6 @@ ___
 
 ## Belgian Style Double Ale
 **Description:**  A light dark, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
-
 **Ingredients:**  Brewed with candi sugar, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
 
 __ABV:__ 10%
@@ -44,7 +41,6 @@ ___
 
 ## German Weissbier
 **Description:**  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character. <br />
-
 **Ingredients:**  Brewed with 70% wheat malts, noble hops, and german wheat beer yeast <br />
 
 __ABV:__ 5%
@@ -56,7 +52,6 @@ ___
 
 ## German Dunkel 
 **Description:**  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character.
-
 **Ingredients:**  Brewed with 70% wheat malts, noble hops, and german wheat beer yeast <br />
 
 __ABV:__ 5%
@@ -68,7 +63,6 @@ ___
 
 ## Peat Smoked Ale
 **Description:**  A golden, dry ale dominated by peat smoked malt with supporting fruity European Ale yeast character. <br />
-
 **Ingredients:**  Brewed with Simpson Peated Malt and a combination of pale and caramel malts, noble hops, and European Ale yeast. <br />
 
 __ABV:__ 9%
@@ -80,7 +74,6 @@ ___
 
 ## American Citra Session IPA
 **Description:**  An American style IPA  brewed and dry hopped with 100% Citra hops giving this beer a moderate bitterness with strong tropical fruit flavor and aroma. <br />
-
 **Ingredients:**  Brewed with Citra hops, pale and light caramel malts, highly attenuated with west coast American ale yeast. <br />
 
 __ABV:__ 4.5%
@@ -92,7 +85,6 @@ ___
 
 ## American Mosaic IPA
 **Description:** A hoppy and bitter, moderately strong American ale, showcasing Mosaic hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the floral, spicy, earthy Mosaic hop character to shine through. <br />
-
 **Ingredients:**  Brewed with Mosaic hops, pale, caramel, and Munich malts, highly attenuated with west coast American ale yeast. <br />
 
 __ABV:__ 7%
@@ -104,7 +96,6 @@ ___
 
 ## American Blended IPA
 **Description:** A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. <br />
-
 **Ingredients:**
 
 __ABV:__ 5.8%
