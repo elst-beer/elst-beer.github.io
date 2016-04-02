@@ -13,6 +13,7 @@ __ABV:__ 9.3%
 __SRM:__ 35
 __IBU:__ 25
 __OG:__ 1.100
+
 ___
 
 ## Belgian Style Triple Ale
