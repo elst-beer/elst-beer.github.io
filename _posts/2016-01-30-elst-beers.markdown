@@ -93,6 +93,7 @@ __ABV:__ 5.8%
 __SRM:__ 7
 __IBU:__ 73
 __OG:__ 1.055
+
 ___
 
 ## English Dark Mild
@@ -102,6 +103,7 @@ __ABV:__ 4%
 __SRM:__ 18
 ___IBU:__ 18
 __OG:__ 1.042
+
 ___
 
 ## American Stout
