@@ -13,6 +13,7 @@ __ABV:__ 9.3%
 __SRM:__ 35
 __IBU:__ 25
 __OG:__ 1.100
+
 ___
 
 ## Belgian Style Triple Ale
@@ -24,6 +25,7 @@ __ABV:__ 10%
 __SRM:__ 5
 __IBU:__ 40
 __OG:__ 1.086
+
 ___
 
 ## Belgian Style Double Ale
@@ -35,6 +37,7 @@ __ABV:__ 10%
 __SRM:__ 5
 __IBU:__ 40
 __OG:__ 1.086
+
 ___
 
 ## German Weissbier
@@ -46,6 +49,7 @@ __ABV:__ 5%
 __SRM:__ 4
 __IBU:__ 14
 __OG:__ 1.050
+
 ___
 
 ## German Dunkel 
@@ -57,6 +61,7 @@ __ABV:__ 5%
 __SRM:__ 4
 __IBU:__ 14
 __OG:__ 1.050
+
 ___
 
 ## Peat Smoked Ale
@@ -68,6 +73,7 @@ __ABV:__ 9%
 __SRM:__ 7
 __IBU:__ 32
 __OG:__ 1.077
+
 ___
 
 ## American Citra Session IPA
@@ -79,6 +85,7 @@ __ABV:__ 4.5%
 __SRM:__ 5
 __IBU:__ 57
 __OG:__ 1.045
+
 ___
 
 ## American Mosaic IPA
@@ -107,19 +114,20 @@ ___
 ## English Dark Mild
 **Description:** A dark, low-gravity, malt-focused British session ale readily suited to drinking in quantity.  <br />
 **Ingredients:**  Brewed with pale, caramel, and chocolate malts, noble and continental hops, and English Ale yeast. <br />
-____ABV:____ 4%
-____SRM:____ 18
-____IBU:____ 18
-____OG:____ 1.042
+__ABV:__ 4%
+__SRM:__ 18
+___IBU:__ 18
+__OG:__ 1.042
 ___
 
 ## American Stout
 **Description:** A fairly strong, roasted, bitter, dark stout. Has the body and dark flavors typical of stouts with mild American hop bitterness and continental hop character. <br />
 **Ingredients:**  A blend of Chocolate, black, caramel, wheat, and pale malt, with Chinook and Goldings hops, fermented with West coast ale yeast. <br />
-____ABV:____ 6.8% 
-____SRM:____ 43 
-____IBU:____ 38 
-____OG:____ 1.062 
+__ABV:__ 6.8% 
+__SRM:__ 43 
+__IBU:__ 38 
+__OG:__ 1.062 
+
 ___
 
 ## American Black Wheat Ale
@@ -129,6 +137,7 @@ __ABV:__ 5.5%
 __SRM:__ 43
 __IBU:__ 20
 __OG:__ 1.056
+
 ___
 
 ## Key Lime Pie Flavored Beer
@@ -139,5 +148,6 @@ __ABV:__ 7%
 __SRM:__ 6
 __IBU:__ 17
 __OG:__ 1.064
+
 ___
 
