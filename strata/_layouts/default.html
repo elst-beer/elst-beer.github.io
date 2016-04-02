@@ -27,73 +27,67 @@
       </header>
 
 
-        <!-- Main -->
-<div id="main">
-    <section>
-        
-            <header class="major">
-                <h2>Elst Brewing Company</h2>
-                <p class="post-meta"></p>
-            </header>
-
-            <section>
-                <p>Elst Brewing Company is a brewery startup based in Knoxville Tennessee.  Our goal is to create fine beers that speak to people with an obsession for beer.</p>
-
-<p>It’s time for something Elst.</p>
-
-
-            </section>
-        
-    </section>
-    <section>
-        <div class="row">
-            
-        </div>
-    </section>
-</div>
-
+        {{ content }}
 
         <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
 
-              
-
-              
+              {% if site.github_username %}
               <li>
-                <a href="https://twitter.com/elstbeer" class="icon fa-twitter">
+                <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.twitter_username %}
+              <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
                   <span class="label">Twitter</span>
                 </a>
               </li>
-              
+              {% endif %}
 
-              
-
-              
+              {% if site.linkedin_username %}
               <li>
-                <a href="https://plus.google.com/elstbeer" class="icon fa-google-plus">
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.google_plus_username %}
+              <li>
+                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
                   <span class="label">Google+</span>
                 </a>
               </li>
-              
+              {% endif %}
 
-              
+              {% if site.facebook_username %}
               <li>
-                <a href="https://www.facebook.com/elstbeer" class="icon fa-facebook">
+                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
                   <span class="label">Facebook</span>
                 </a>
               </li>
-              
+              {% endif %}
 
-              
-
-              
+              {% if site.dribbble_username %}
               <li>
-                <a href="mailto:info@elst.beer" class="icon fa-envelope-o">
+                <a href="#" class="icon fa-dribbble">
+                  <span class="label">Dribbble</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.email %}
+              <li>
+                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
                   <span class="label">Email</span>
                 </a>
               </li>
-              
+              {% endif %}
             </ul>
             <ul class="copyright">
                 <li>&copy; Elst Brewing Company</li>
