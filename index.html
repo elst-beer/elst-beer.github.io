@@ -1,105 +1,41 @@
-<!DOCTYPE html>
-<html>
-  	<head>
-  		<title>Elst Beer</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="Maker of fine beer in Knoxville Tennessee.  We are inspired by the  tradition of Trappist Belgian breweries.  We also have a deep connection  with our home town of Knoxville and the beauty of the Smoky Mountains that  surround it.  Our goal is to create fine beers that speak to people with an  obsession for beer. 
-" />
-  		<meta name="keywords" content="" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-xlarge.css" />
-  		</noscript>
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
-
-	<body id="top">
-
-      <header id="header">
-          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h1>Maker of fine beer.<br />
-          </h1>
-      </header>
+---
+layout: default
+---
 
 
-        <!-- Main -->
+<!-- Main -->
 <div id="main">
     <section>
-        
+        {% for post in site.posts limit:1 %}
             <header class="major">
-                <h2>Elst Brewing Company</h2>
-                <p class="post-meta"></p>
+                <h2>{{ post.title }}</h2>
+                <p class="post-meta">{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>
 
             <section>
-                <p>Elst Brewing Company is a brewery startup based in Knoxville Tennessee.  Our goal is to create fine beers that speak to people with an obsession for beer.</p>
-
-<p>It’s time for something Elst.</p>
-
-
+                {{ post.content }}
             </section>
-        
+        {% endfor %}
     </section>
     <section>
         <div class="row">
-            
+            {% for post in site.posts offset:1 %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                    <header>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    </header>
+                    <section>
+                        {{ post.excerpt }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ post.url }}" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+
+            {% endfor %}
         </div>
     </section>
 </div>
-
-
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-
-              
-
-              
-              <li>
-                <a href="https://twitter.com/elstbeer" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              
-
-              
-
-              
-              <li>
-                <a href="https://plus.google.com/elstbeer" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              
-
-              
-              <li>
-                <a href="https://www.facebook.com/elstbeer" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              
-
-              
-
-              
-              <li>
-                <a href="mailto:info@elst.beer" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              
-            </ul>
-            <ul class="copyright">
-                <li>&copy; Elst Brewing Company</li>
-            </ul>
-        </footer>
-
-	</body>
-</html>
