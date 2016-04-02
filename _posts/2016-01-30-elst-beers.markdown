@@ -14,6 +14,7 @@ __SRM:__ 35
 __IBU:__ 25
 __OG:__ 1.100
 ___
+
 ## Belgian Style Triple Ale
 Description:  A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
 
@@ -24,6 +25,7 @@ __SRM:__ 5
 __IBU:__ 40
 __OG:__ 1.086
 ___
+
 ## Belgian Style Double Ale
 Description:  A light dark, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
 
@@ -34,6 +36,7 @@ __SRM:__ 5
 __IBU:__ 40
 __OG:__ 1.086
 ___
+
 ## German Weissbier
 Description:  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character. <br />
 
@@ -44,6 +47,7 @@ __SRM:__ 4
 __IBU:__ 14
 __OG:__ 1.050
 ___
+
 ## German Dunkel 
 Description:  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character.
 
@@ -54,6 +58,7 @@ __SRM:__ 4
 __IBU:__ 14
 __OG:__ 1.050
 ___
+
 ## Peat Smoked Ale
 Description:  A golden, dry ale dominated by peat smoked malt with supporting fruity European Ale yeast character. <br />
 
@@ -64,6 +69,7 @@ __SRM:__ 7
 __IBU:__ 32
 __OG:__ 1.077
 ___
+
 ## American Citra Session IPA
 Description:  An American style IPA  brewed and dry hopped with 100% Citra hops giving this beer a moderate bitterness with strong tropical fruit flavor and aroma. <br />
 
@@ -74,6 +80,7 @@ __SRM:__ 5
 __IBU:__ 57
 __OG:__ 1.045
 ___
+
 ## American Mosaic IPA
 Description: A hoppy and bitter, moderately strong American ale, showcasing Mosaic hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the floral, spicy, earthy Mosaic hop character to shine through. <br />
 
@@ -85,6 +92,7 @@ __IBU:__ 66
 __OG:__ 1.073
 
 ___
+
 ## American Blended IPA
 **Description:** A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. <br />
 
@@ -95,6 +103,7 @@ __SRM:__ 7
 __IBU:__ 73
 __OG:__ 1.055
 ___
+
 ## English Dark Mild
 **Description:** A dark, low-gravity, malt-focused British session ale readily suited to drinking in quantity.  <br />
 **Ingredients:**  Brewed with pale, caramel, and chocolate malts, noble and continental hops, and English Ale yeast. <br />
@@ -103,6 +112,7 @@ ____SRM:____ 18
 ____IBU:____ 18
 ____OG:____ 1.042
 ___
+
 ## American Stout
 **Description:** A fairly strong, roasted, bitter, dark stout. Has the body and dark flavors typical of stouts with mild American hop bitterness and continental hop character. <br />
 **Ingredients:**  A blend of Chocolate, black, caramel, wheat, and pale malt, with Chinook and Goldings hops, fermented with West coast ale yeast. <br />
@@ -111,6 +121,7 @@ ____SRM:____ 43
 ____IBU:____ 38 
 ____OG:____ 1.062 
 ___
+
 ## American Black Wheat Ale
 **Description:**  Blackest wheat of them all. <br />
 **Ingredients:** Brewed with Midnight and red wheat malt, with American hops and west coast ale yeast. <br />
@@ -119,6 +130,7 @@ __SRM:__ 43
 __IBU:__ 20
 __OG:__ 1.056
 ___
+
 ## Key Lime Pie Flavored Beer
 **Description:**  Key lime pie, that’s it. <br />
 **Ingredients:** Key lime juice, vanilla, cinnamon, and graham cracker extract, oats, biscuit and pale malts, with American hops and west coast American ale yeast. <br />
@@ -128,3 +140,4 @@ __SRM:__ 6
 __IBU:__ 17
 __OG:__ 1.064
 ___
+
