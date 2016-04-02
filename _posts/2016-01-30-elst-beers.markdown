@@ -4,6 +4,8 @@ title: Our Beers
 categories: update
 ---
 
+___
+
 ## Belgian Style Dark Strong Ale
 Description:  A dark, complex, very strong Belgian ale with a delicious blend of malt richness, dark fruit flavors, and spicy elements. <br />
 
