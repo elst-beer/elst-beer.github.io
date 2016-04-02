@@ -104,13 +104,13 @@ SRM: 18
 IBU: 18
 OG: 1.042
 
-# American Stout
+## American Stout
 **Description:** A fairly strong, roasted, bitter, dark stout. Has the body and dark flavors typical of stouts with mild American hop bitterness and continental hop character. <br />
 **Ingredients:**  A blend of Chocolate, black, caramel, wheat, and pale malt, with Chinook and Goldings hops, fermented with West coast ale yeast. <br />
-ABV: 6.8% 
-SRM: 43 
-IBU: 38 
-OG: 1.062 
+__ABV__: 6.8% 
+__SRM__: 43 
+__IBU__: 38 
+__OG__: 1.062 
 
 # American Black Wheat Ale
 Description:  Blackest wheat of them all. <br />
