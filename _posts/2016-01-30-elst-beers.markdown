@@ -58,7 +58,7 @@ ___
 
 ## Peat Smoked Ale
 **Description:**  A golden, dry ale dominated by peat smoked malt with supporting fruity European Ale yeast character. <br />
-**Ingredients:**  Brewed with Simpson Peated Malt and a combination of pale and caramel malts, noble hops, and European Ale yeast. <br />
+**Ingredients:**  Brewed with Simpson Peated Malt, a combination of pale and caramel malts, noble hops, and European Ale yeast. <br />
 __ABV:__ 9%
 __SRM:__ 7
 __IBU:__ 32
@@ -88,7 +88,7 @@ ___
 
 ## American Blended IPA
 **Description:** A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. <br />
-**Ingredients:** Brewed with a mixture of American Centennial, Citra, Chinook hops pale and caramel malts
+**Ingredients:** Brewed with a mixture of American Centennial, Citra, Chinook hops pale and caramel malts and American ale yeast<br />
 __ABV:__ 5.8%
 __SRM:__ 7
 __IBU:__ 73
