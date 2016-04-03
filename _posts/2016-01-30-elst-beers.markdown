@@ -4,6 +4,8 @@ title: Our Beers
 categories: update
 ---
 
+___
+
 ## English Dark Mild
 **Description:** A dark, low-gravity, malt-focused British session ale readily suited to drinking in quantity.  <br />
 **Ingredients:**  Brewed with pale, caramel, and chocolate malts, noble and continental hops, and English Ale yeast. <br />
