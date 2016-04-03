@@ -47,7 +47,7 @@ __OG:__ 1.050
 ___
 
 ## German Dunkel 
-**Description:**  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character. <br />
+**Description:**  A dark, flavorful German wheat beer with moderate carbonation, smooth finish, and a fruity yeast character. <br />
 **Ingredients:**  Brewed with 70% wheat malts, noble hops, and german wheat beer yeast <br />
 __ABV:__ 5%
 __SRM:__ 18
