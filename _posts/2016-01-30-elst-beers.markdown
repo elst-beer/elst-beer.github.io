@@ -6,7 +6,7 @@ categories: update
 
 ___
 
-## Belgian Style Dark Strong Ale
+## Abbey Dark Strong Ale
 **Description:**  A dark, complex, very strong Belgian ale with a delicious blend of malt richness, dark fruit flavors, and spicy elements. <br />
 **Ingredients:**  Brewed with dark candy sugar, caramel wheat and barley, noble hops and belgian yeast. <br />
 __ABV:__ 9.3%
@@ -16,7 +16,7 @@ __OG:__ 1.100
 
 ___
 
-## Belgian Style Triple Ale
+## Abbey Triple Ale
 **Description:**  A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
 **Ingredients:**  Brewed with candi sugar, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
 __ABV:__ 10%
@@ -26,13 +26,13 @@ __OG:__ 1.086
 
 ___
 
-## Belgian Style Double Ale
+## Abbey Double Ale
 **Description:**  A light dark, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
-**Ingredients:**  Brewed with candi sugar, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
-__ABV:__ 10%
-__SRM:__ 5
-__IBU:__ 40
-__OG:__ 1.086
+**Ingredients:**  Brewed with dark candi sugar, wheat, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
+__ABV:__ 6.1%
+__SRM:__ 23
+__IBU:__ 27
+__OG:__ 1.065
 
 ___
 
@@ -47,11 +47,11 @@ __OG:__ 1.050
 ___
 
 ## German Dunkel 
-**Description:**  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character.
+**Description:**  A pale, refreshing German wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character. <br />
 **Ingredients:**  Brewed with 70% wheat malts, noble hops, and german wheat beer yeast <br />
 __ABV:__ 5%
-__SRM:__ 4
-__IBU:__ 14
+__SRM:__ 18
+__IBU:__ 12
 __OG:__ 1.050
 
 ___
@@ -88,7 +88,7 @@ ___
 
 ## American Blended IPA
 **Description:** A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops.  The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. <br />
-**Ingredients:**
+**Ingredients:** Brewed with a mixture of American Centennial, Citra, Chinook hops pale and caramel malts
 __ABV:__ 5.8%
 __SRM:__ 7
 __IBU:__ 73
@@ -101,7 +101,7 @@ ___
 **Ingredients:**  Brewed with pale, caramel, and chocolate malts, noble and continental hops, and English Ale yeast. <br />
 __ABV:__ 4%
 __SRM:__ 18
-___IBU:__ 18
+__IBU:__ 18
 __OG:__ 1.042
 
 ___
