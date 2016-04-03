@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elst Mission
+title: Our Mission
 categories: update
 ---
 
