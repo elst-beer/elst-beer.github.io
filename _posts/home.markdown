@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Elst Brewing Company
-categories: update
+categories: about
+permalink: title
+redirect_from: "/update/2016/01/31/elst-home.html"
 ---
 
 Elst Brewing Company is a brewery startup based in Knoxville Tennessee.  Our goal is to create fine beers that speak to people with an obsession for beer.

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Our Beers
-categories: update
+categories: about
+permalink: title
+redirect_from: "/update/2016/01/30/elst-beers.html"
 ---
 
 ___
