@@ -2,7 +2,7 @@
 layout: post
 title: Our Beers
 categories: about
-permalink: title
+permalink: none
 redirect_from: "/update/2016/01/30/elst-beers.html"
 ---
 

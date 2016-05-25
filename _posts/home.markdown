@@ -2,7 +2,7 @@
 layout: post
 title: Elst Brewing Company
 categories: about
-permalink: title
+permalink: none
 redirect_from: "/update/2016/01/31/elst-home.html"
 ---
 
