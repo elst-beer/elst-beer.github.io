@@ -8,7 +8,7 @@ redirect_from: "/update/2016/01/30/elst-beers.html"
 
 ___
 
-##American Citra Session IPA
+## American Citra Session IPA
 
 **Description:** An American style IPA brewed with 100% Citra hops giving this beer a moderate bitterness with strong tropical fruit flavor and aroma. <br />
 **Ingredients:** Brewed with Citra hops, pale and light caramel malts, highly attenuated with west coast American ale yeast. <br />
@@ -19,7 +19,7 @@ __OG:__ 1.045
 
 ___
 
-##Hefeweizen
+## Hefeweizen
 
 **Description:** A pale, refreshing wheat beer with high carbonation, dry finish, a fluffy mouthfeel, and a distinctive banana-and-clove yeast character. <br />
 **Ingredients:** Brewed with 40% wheat malts along with pale and Munich barley malt, American hops, and German wheat beer yeast. <br />
@@ -30,11 +30,10 @@ __OG:__ 1.059
 
 ___
 
-##Cream Ale
+## Cream Ale
 
 **Description:**  A refreshing light ale with mild grain flavor and low bitterness.  <br />
 **Ingredients:** Pale malt and flaked corn, Cascade hops, and American ale yeast. <br />
-ABV: 5.2%  SRM: 2.9  IBU:  14.5  OG:  1.048
 __ABV:__ 5.2%
 __SRM:__ 2.9
 __IBU:__ 14.5
