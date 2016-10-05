@@ -1037,16 +1037,19 @@
 				padding-top: 0;
 			}
 
-/*    nav {
+/* commented out to fix age verification style
+    nav {
         margin: -4em 0 -2em;
     }
 */
+
     nav ul{
         list-style-type: none;
         padding-left: 0;
     }
 
-/*    nav li {
+/* commented out to fix age verification style
+    nav li {
         float: left;
         padding: 0 3em 0 0;
     }
