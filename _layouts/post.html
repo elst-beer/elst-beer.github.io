@@ -1,9 +1,17 @@
----
+--- 
 layout: default
 ---
 <div id="main">
     <article>
         <header class="major">
+            <div class="row">
+              <ul class="actions">
+{% for post in site.categories.about %}
+                <li><a href="{{ post.url }}" class="button">{{ post.title }}</a></li>
+{% endfor %}
+              </ul>
+            </div>
+  <hr>
             <h2 class="post-title">{{ page.title }}</h2>
                 <p class="post-meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
@@ -12,29 +20,14 @@ layout: default
             {{ content }}
         </section>
         
+  <hr>
         <footer>
             <div class="row">
-            {% if page.previous %}
-            
-                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="{{ page.previous.url }}" class="button">{{ page.previous.title }}</a></li>
-                        </ul>
-                    </footer>
-                </article>
-            {% endif %}
-            
-            {% if page.next %}
-            
-                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="{{ page.next.url }}" class="button">{{ page.next.title }}</a></li>
-                        </ul>
-                    </footer>
-                </article>
-            {% endif %}
+              <ul class="actions">
+{% for post in site.categories.about %}
+                <li><a href="{{ post.url }}" class="button">{{ post.title }}</a></li>
+{% endfor %}
+              </ul>
             </div>
         </footer>
 

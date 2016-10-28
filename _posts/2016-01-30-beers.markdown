@@ -81,7 +81,7 @@ __OG:__ 1.056
 
 ___
 
-## Abbey Double Ale
+## Abbey Dubbel Ale
 **Description:**  A light dark, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
 **Ingredients:**  Brewed with dark candi sugar, wheat, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
 __ABV:__ 6.1%
@@ -91,7 +91,7 @@ __OG:__ 1.065
 
 ___
 
-## Abbey Triple Ale
+## Abbey Tripel Ale
 **Description:**  A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with the supportive clean malt character. <br />
 **Ingredients:**  Brewed with candi sugar, pilsner and belgian malts, noble and english hops, and belgian yeast.<br />
 __ABV:__ 10%
@@ -152,12 +152,11 @@ __OG:__ 1.077
 ___
 
 ## Key Lime Pie Flavored Beer
-**Description:**  Key lime pie, that’s it. <br />
+**Description:**  Key lime pie, that's it. <br />
 **Ingredients:** Key lime juice, vanilla, cinnamon, and graham cracker extract, oats, biscuit and pale malts, with American hops and west coast American ale yeast. <br />
 __ABV:__ 7%
 __SRM:__ 6
 __IBU:__ 17
 __OG:__ 1.064
 
-___
 
