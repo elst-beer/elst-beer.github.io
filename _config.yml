@@ -1,7 +1,7 @@
 # Site settings
 
 title: Elst Beer # Title of your site
-email: info@elst.beer # Your contant email
+email: info@elst.beer # Your contact email
 
 description: > # this means to ignore newlines until "baseurl:"
   Maker of fine beer in Knoxville Tennessee.  We are inspired by the 
@@ -17,7 +17,6 @@ url: "http://elst.beer" # the base hostname & protocol for your site
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
 twitter_username:     elstbeer  # Replace this with your Twitter username
-google_plus_username: elstbeer  # Replace this with your Google+ username
 facebook_username:    elstbeer  # Replace this with your Facebook username
 
 # Build settings
