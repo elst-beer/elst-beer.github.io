@@ -1,0 +1,100 @@
+---
+layout: default
+section_id: other_beers
+beers:
+  - image: images/beer/secret_beer.jpg
+    title: Belgian Christmas Ale
+    class: seasonals
+    desc: Naughty Nicks
+  - image: images/beer/secret_beer.jpg
+    title: Mosaic IPA
+    class: seasonals
+    desc: Fall Seasonal IPA
+  - image: images/beer/secret_beer.jpg
+    title: Vienna Lager
+    class: seasonals
+    desc: Fall Seasonal Lager
+  - image: images/beer/secret_beer.jpg
+    title: Hoppy Wheat
+    class: seasonals
+    desc: Spring Seasonal
+  - image: images/beer/secret_beer.jpg
+    title: Weiss
+    class: seasonal 
+    desc: Spring Seasonal
+  - image: images/beer/secret_beer.jpg
+    title: Double IPA
+    class: tasting-room
+    desc: Tasting Room
+  - image: images/beer/secret_beer.jpg
+    title: Hoppy Stout
+    class: tasting-room
+    desc: Tasting Room
+  - image: images/beer/secret_beer.jpg
+    title: Kolsch
+    class: tasting-room
+    desc: Tasting Room
+  - image: images/beer/secret_beer.jpg
+    title: Oak Aged Rye Stout
+    class: limited
+    desc: Limited Edition
+  - image: images/beer/secret_beer.jpg
+    title: Peat Ale
+    class: limited
+    desc: Limited Release
+  - image: images/beer/secret_beer.jpg
+    title: Belgian IPA
+    class: limited
+    desc: Limited Release
+  - image: images/beer/secret_beer.jpg
+    title: Key Lime Pie
+    class: limited
+    desc: Limited Release
+  - image: images/beer/secret_beer.jpg
+    title: Gruit
+    class: limited
+    desc: Limited Release
+
+---
+
+<div class='full'>
+  <div class='row'>
+    <h3 class='centered-text'> Elst is not open yet... but here are some recipes that we have been working on! </h3>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='seasonals' href='#'>Seasonals</a>
+          </li>
+          <li>
+            <a data-cat='tasting-room' href='#'>Tasting Room</a>
+          </li>
+          <li>
+            <a data-cat='limited' href='#'>Limited Edition</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for beer in page.beers %}
+          <li class='{{beer.class}}'>
+            <a href=''>
+              <img alt="" src="{{site.url}}/{{beer.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{beer.title}}</h3>
+                  <p>{{beer.desc}}</p>
+                </div>
+              </div>
+            </a>
+            <h3>{{beer.title}}</h3>
+            <p>{{beer.desc}}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

@@ -1,0 +1,106 @@
+---
+layout: default
+section_id: beers
+draft_beers:
+  - image: images/beer/elst_belgian_golden.jpg
+    title: Belgian Style Golden Ale
+    small_desc: A golden ale with floral hop character
+    desc: A highly attenuated, well carbonated ale with floral hop notes and a spicy yeast character.  Our interpretation of the style brings continental hops to the forefront while maintaining a balance between hops, yeast, and malt.
+    stats: OG 12° | ABV 5.2% | IBU 26 | SRM 3.7
+    class: belgian
+  - image: images/beer/elst_ipa.jpg
+    title: Elst IPA
+    small_desc: A strong West Coast IPA with a blend of hops
+    desc: A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops. The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. 
+    stats: OG 13.5° | ABV 5.8% | IBU 73 | SRM 7 
+    class: web-design print
+  - image: images/beer/elst_citra.jpg
+    title: Citra Session IPA
+    small_desc: A light session ale packed with Citra hops
+    desc: An American style session IPA brewed with 100% Citra hops giving this beer a moderate bitterness with strong tropical fruit flavor and aroma. 
+    stats: OG 11.25° | ABV 4.5% | IBU 57 | SRM 5  
+    class: brand
+  - image: images/beer/elst_stout.jpg
+    title: Rye Stout
+    small_desc: An American Stout made with Rye
+    desc: This stout finishes dry with notes of chocolate, spicy rye, and roasted malts.
+    stats: OG 17.5° | ABV 7.5% | IBU 38 | SRM 34
+    class: development
+
+bottle_beers:
+  - image: images/beer/elst_dubbel.jpg
+    title: Belgian Dubbel Ale
+    small_desc: A malty beer with spicy esters
+    desc: A moderately strong abbey ale with a malty backbone and spicy yeast esters.  This beer gets it's unique malty character from Belgian Candi Sugar and our house Belgian strain of yeast.
+    stats: OG 15° | ABV 6.7% | IBU 17.6 | SRM 28.5
+    class: graphic-design
+  - image: images/beer/elst_tripel2.jpg
+    title: Belgian Tripel
+    desc: ...
+    class: web-design print
+  - image: images/beer/elst_quad.jpg
+    title: Belgian Quad
+    desc: ...
+    class: brand
+
+---
+
+<div class='full'>
+  <div class='row'>
+  <h3 class='centered-text'> Elst is not open yet... but here are some recipes that we have been working on! </h3>
+  <h3>Draft Beer</h3>
+    <div class='mod modGallery'>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for beer in page.draft_beers %}
+          <li class='{{beer.class}}'>
+            <a href='{{beer.link_to}}'>
+              <img alt="" src="{{site.url}}/{{beer.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>coming soon</h3>
+                </div>
+              </div>
+            </a>
+            <h3>{{beer.title}}</h3>
+            <p>{{beer.small_desc}}</p>
+            <p>{{beer.stats}}</p>
+            <p>{{beer.desc}}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+  <h3>Bottle Conditioned Beer</h3>
+    <div class='mod modGallery'>
+      <ul class='gallery large-block-grid-3 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for beer in page.bottle_beers %}
+          <li class='{{beer.class}}'>
+            <a href='{{beer.link_to}}'>
+              <img alt="" src="{{site.url}}/{{beer.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>coming soon</h3>
+                </div>
+              </div>
+            </a>
+            <h3>{{beer.title}}</h3>
+            <p>{{beer.small_desc}}</p>
+            <p>{{beer.stats}}</p>
+            <p>{{beer.desc}}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='other_beers.html'>See more beers</a>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

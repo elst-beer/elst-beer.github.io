@@ -1,41 +1,137 @@
 ---
 layout: default
+section_id: home
+slides:
+  - bg: images/make_time.jpg
+    title: Elst Brewing Co.
+    tagline: Make time for something Elst!
+    link: about.html
+  - bg: images/overhead.jpg
+    title: Coming soon!
+    tagline: Elstwhere Tasting Room
+    link: tasting_room.html
+beers:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Belgian Golden Ale
+    desc: A Belgian style pale hoppy beer
+    class: graphic-design
+  - image: images/@stock/one-page-work-5.jpg
+    title: Elst IPA
+    desc: Elst signature American style IPA
+    class: web-design print
+  - image: images/@stock/one-page-work-3.jpg
+    title: Citra Session IPA
+    desc: American style session IPA with all Citra hops
+    class: brand
+  - image: images/@stock/one-page-work-4.jpg
+    title: Rye Stout
+    desc: A dark and hearty stout with spicy rye flavor
+    class: development
+
+bars:
+  - title: Yeasts
+    percent: 84
+  - title: Waters
+    percent: 95
+  - title: Hops
+    percent: 70
+  - title: Grains
+    percent: 61
+
+
 ---
 
-
-<!-- Main -->
-<div id="main">
-    <article>
-        <header class="major">
-            <div class="row">
-              <ul class="actions">
-{% for post in site.categories.about %}
-                <li><a href="{{ post.url }}" class="button">{{ post.title }}</a></li>
-{% endfor %}
-              </ul>
+<div class='full no-padding'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in page.slides %}
+            <div class='slide'>
+              <a href="{{slide.link}}"> <img alt="" src="{{slide.bg}}" /> </a>
+              <div class='caption'>
+                <p>{{slide.title}}</p>
+                <h2>{{slide.tagline}}</h2>
+              </div>
             </div>
-  <hr>
-        {% for post in site.posts limit:1 %}
-            <h2 class="post-title">{{ post.title }}</h2>
-                <p class="post-meta">{% if post.author %} ?~@? {{ post.author }}{% endif %}{% if post.meta %} ?~@? {{ post.meta }}{% endif %}</p>
-        </header>
-
-        <section>
-            {{ post.content }}
-        </section>
-        {% endfor %}
-
-  <hr>
-        <footer>
-            <div class="row">
-              <ul class="actions">
-{% for post in site.categories.about %}
-                <li><a href="{{ post.url }}" class="button">{{ post.title }}</a></li>
-{% endfor %}
-              </ul>
-            </div>
-        </footer>
-
-    </article>
-
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class='full no-padding'>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p style='text-align: center; font-size: 1.5rem; font-weight: bold; color: black'>
+        Elst Brewing Company is a brewery startup based in Knoxville Tennessee. Our goal is to create fine beers that speak to people with an obsession for beer.
+      </p>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//beer.us15.list-manage.com/subscribe/post?u=bedd07c8cd83abe1ee51faecd&amp;id=5b8cb9f478" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <label for="mce-EMAIL">We're not open yet...  Subscribe to our mailing list for updates!</label>
+  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bedd07c8cd83abe1ee51faecd_5b8cb9f478" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+<hr>
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      Our recent posts
+      /
+      <a href='#'>View more posts</a>
+    </h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for post in site.posts %}
+    {% if forloop.index > 3 %}
+      {% break %}
+    {% endif %}
+
+
+    <div class='large-4 medium-4 columns'>
+      <div class='mod modBlogPost no_bg simple'>
+        {% for image in post.images %}
+          {% if forloop.index > 1 %}
+            {% break %}
+          {% endif %}
+          <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+        {% endfor %}
+        <div class='content'>
+          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+          <p>{{post.excerpt | truncatewords: 25 }}</p>
+        </div>
+      </div>
+    </div>
+
+  {% endfor %}
+  <div class='two spacing'></div>
+</div>
+

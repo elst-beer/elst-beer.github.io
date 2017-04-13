@@ -1,0 +1,90 @@
+---
+layout: default
+section_id: about
+skills:
+  - title: Brewing Game
+    percent: 84
+  - title: Website abilities
+    percent: 95
+  - title: Water skills
+    percent: 70
+  - title: Yeast 
+    percent: 61
+
+members:
+  - name: Dan Leonard
+    position: Brewer
+    desc:
+      Long time home brewer and and recent graduate of the South College Professional Brewer's Program, Dan will be leading brewery operations.
+    avatar: images/profile/dan.jpg
+  - name: Chris Sexton
+    position: Brewer
+    desc: ...
+    avatar: images/@stock/member-2.jpg
+    socials:
+  - name: Shane Todd
+    position: Business Operations
+    desc: ...
+    avatar: images/profile/shane.jpg
+    socials:
+  - name: Chris Hall
+    position: Beer Evangelist
+    desc:
+      Knoxville native and lover of all things beer!  The other Chris has an insatiable curiosity for creating, studying, and tasting beer.  With a background in computer science he will focus on the social, digital, marketing, and technology activities of the brewery.
+    avatar: images/profile/chall.jpg
+    socials:
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Our Story</h3>
+      <div class='spacing'></div>
+      <p>Elst means sanctuary.</p>
+      <p>Our goal is to create fine beers that speak to people with an obsession with beer.</p>
+      <p> The Elst Brewery is a place for us to focus and create great beers for your enjoyment!  Our favorite part of creating beer is sharing it with others.</p>
+    </div>
+    <div class='medium-6 columns'>
+    <p class="centered-text">
+      <img alt="" src="/images/round_logo.jpg" />
+      <!-- <img alt="" src="/images/logo.jpg" /> -->
+    </p>
+    </div>
+  </div>
+</div>
+<div class='two spacing'></div>
+<hr>
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>The team</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for member in page.members %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember style-2'>
+        <div class='member'>
+          <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+          <div class='overlay'>
+            <ul class='socials'>
+              {% for social in member.socials %}
+                <li>
+                  <a href='{{social.url}}'>
+                    <i class='{{social.icon_class}}'></i>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.position}}</p>
+        <p>{{member.desc}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<div class='three spacing'></div>
