@@ -1,2 +1,4 @@
-_site/
+images_raw
 .sass-cache/
+.idea/
+_site
